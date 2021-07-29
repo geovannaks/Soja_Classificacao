@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A10AA4226B2126500DAAE87 /* SF-Compact-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A10AA4026B2126500DAAE87 /* SF-Compact-Italic.ttf */; };
+		9A10AA4326B2126500DAAE87 /* SF-Compact.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A10AA4126B2126500DAAE87 /* SF-Compact.ttf */; };
 		9A80E87E26B1FB1B002E4275 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A80E87D26B1FB1B002E4275 /* AppDelegate.swift */; };
 		9A80E88026B1FB1B002E4275 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A80E87F26B1FB1B002E4275 /* SceneDelegate.swift */; };
 		9A80E88226B1FB1B002E4275 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A80E88126B1FB1B002E4275 /* ViewController.swift */; };
 		9A80E88526B1FB1B002E4275 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A80E88326B1FB1B002E4275 /* Main.storyboard */; };
 		9A80E88726B1FB1C002E4275 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A80E88626B1FB1C002E4275 /* Assets.xcassets */; };
 		9A80E88A26B1FB1C002E4275 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A80E88826B1FB1C002E4275 /* LaunchScreen.storyboard */; };
+		9AC0E8DC26B222990016F333 /* Castoro-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9AC0E8DA26B222990016F333 /* Castoro-Italic.ttf */; };
+		9AC0E8DD26B222990016F333 /* Castoro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9AC0E8DB26B222990016F333 /* Castoro-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A10AA4026B2126500DAAE87 /* SF-Compact-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Italic.ttf"; sourceTree = "<group>"; };
+		9A10AA4126B2126500DAAE87 /* SF-Compact.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact.ttf"; sourceTree = "<group>"; };
 		9A80E87A26B1FB1B002E4275 /* Soja_Classificacao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soja_Classificacao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A80E87D26B1FB1B002E4275 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A80E87F26B1FB1B002E4275 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		9A80E88626B1FB1C002E4275 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A80E88926B1FB1C002E4275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A80E88B26B1FB1C002E4275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AC0E8DA26B222990016F333 /* Castoro-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Castoro-Italic.ttf"; sourceTree = "<group>"; };
+		9AC0E8DB26B222990016F333 /* Castoro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Castoro-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,9 +45,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A10AA3F26B211E300DAAE87 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9A10AA4026B2126500DAAE87 /* SF-Compact-Italic.ttf */,
+				9AC0E8DA26B222990016F333 /* Castoro-Italic.ttf */,
+				9AC0E8DB26B222990016F333 /* Castoro-Regular.ttf */,
+				9A10AA4126B2126500DAAE87 /* SF-Compact.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		9A80E87126B1FB1B002E4275 = {
 			isa = PBXGroup;
 			children = (
+				9A10AA3F26B211E300DAAE87 /* Fonts */,
 				9A80E87C26B1FB1B002E4275 /* Soja_Classificacao */,
 				9A80E87B26B1FB1B002E4275 /* Products */,
 			);
@@ -125,8 +145,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A80E88A26B1FB1C002E4275 /* LaunchScreen.storyboard in Resources */,
+				9A10AA4226B2126500DAAE87 /* SF-Compact-Italic.ttf in Resources */,
+				9AC0E8DC26B222990016F333 /* Castoro-Italic.ttf in Resources */,
 				9A80E88726B1FB1C002E4275 /* Assets.xcassets in Resources */,
 				9A80E88526B1FB1B002E4275 /* Main.storyboard in Resources */,
+				9A10AA4326B2126500DAAE87 /* SF-Compact.ttf in Resources */,
+				9AC0E8DD26B222990016F333 /* Castoro-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
